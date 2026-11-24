@@ -5,7 +5,7 @@ class Nimbus < Formula
   desc "A colorful command-line weather reporter"
   homepage "https://github.com/olympus-mons26/nimbus"
   url "https://github.com/olympus-mons26/nimbus/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "REPLACE_WITH_SOURCE_SHA256"
+  sha256 "92f0aa304433a7e68b6bcb1a8ade078e887867632cb5fe74fb8bd1090c15cf94"
   license "MIT"
 
   # Choose the current Homebrew Python version
