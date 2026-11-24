@@ -6,6 +6,10 @@ class Nimbus < Formula
   url "https://github.com/olympus-mons26/nimbus/archive/refs/tags/v1.0.1.tar.gz"
   sha256 "30c2e3a9bcac21ba97cd26eceadf5ae1fb99a8dec66b85e313aeebe8da341574"
   license "MIT"
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   depends_on "python@3.14"
 
@@ -69,6 +73,6 @@ class Nimbus < Formula
   end
 
   test do
-    assert_predicate bin/"wf", :executable?
+    assert_match "Nimbus", shell_output("#{bin}/wf wai")
   end
 end
