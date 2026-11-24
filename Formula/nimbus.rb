@@ -3,8 +3,8 @@ class Nimbus < Formula
 
   desc "Colorful command-line weather reporting"
   homepage "https://github.com/olympus-mons26/nimbus"
-  url "https://github.com/olympus-mons26/nimbus/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "30c2e3a9bcac21ba97cd26eceadf5ae1fb99a8dec66b85e313aeebe8da341574"
+  url "https://github.com/olympus-mons26/nimbus/archive/refs/tags/v1.0.3.tar.gz"
+  sha256 "ad486792b6f7e4e47954cecd0feaea6eec6cd58ad36e0a12c83738485bf6fb84"
   license "MIT"
   livecheck do
     url :stable
